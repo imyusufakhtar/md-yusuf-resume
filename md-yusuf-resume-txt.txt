@@ -1,0 +1,250 @@
+%-------------------------
+% Resume in Latex
+% Author : Md Yusuf
+% Based off of: https://github.com/imyusufakhtar/md-yusuf-resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Md Yusuf} \\ \vspace{1pt}
+    Chandigarh, Punjab, India \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91-9781282503 ~ \href{mailto:imyusufakhtar@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{imyusufakhtar@gmail.com}} ~ 
+    \href{https://linkedin.com/in/imyusufakhtar/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/imyusufakhtar}}  ~
+    \href{https://github.com/imyusufakhtar}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/imyusufakhtar}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------ABOUT ME-----------
+\section{Summary}
+ \begin{itemize}[leftmargin=0.0in, label={}]
+    \small{\item{
+     \textbf{}{As a recent graduate in Computer Science and Engineering, I am eager to apply my knowledge and skills to a challenging and rewarding role in the field. I am a quick learner and have a strong passion for technology and its advancements. I am confident in my ability to adapt to new technologies and programming languages, and am always eager to learn more.} \\
+    }}
+ \end{itemize}
+ \vspace{-18pt}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Chandigarh University}{July 2018 -- July 2022}
+      {Bachelor of Engineering - Computer Science And Engineering}{Punjab, India}
+\vspace{4pt}
+       {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Relevant Coursework:} DSA, Programming Languages, OOPS, Computer Networks, Operating Systems, DBMS.}}}
+  \resumeSubHeadingListEnd
+
+\vspace{-16pt}
+
+%-----------EXPERIENCE-----------
+\section{Internship}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Internshala}{May 2020 -- June 2020}
+      {Web Development training}{Remote, India}
+      \resumeItemListStart
+        \resumeItem{Completed 6-week web development training program, focusing on HTML, CSS, Bootstrap, SQL and PHP.} 
+        
+        \resumeItem{Developed a gym management system website, showcasing expertise in web development technologies and database integration.   \href{https://github.com/imyusufakhtar/gym-management-system}{[LINK]}}
+
+        \resumeItem{Strong analytical and problem-solving skills, ability to work independently and in a team environment, proven ability to learn and adapt quickly to new technologies.}
+      \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Shopping Cart - Ecommerce Website} $|$ \emph{HTML, CSS, JavaScript and PHP}}{\href{https://github.com/imyusufakhtar/shopping-cart}{\faGithub\ {github.com/link}}}
+          \resumeItemListStart
+            \resumeItem{Developed a fully functional ecommerce website: The website was developed using technologies such as HTML, CSS, JavaScript and PHP, providing a complete shopping experience for customers, including product browsing, ordering, and payment processing.}
+            
+            \resumeItem{Integrated a MySQL database and implemented a search bar: A MySQL database was integrated to store product information, customer data, and order details. A search bar was also implemented to allow customers to search for products by name and category.}
+            
+            \resumeItem{Implemented a responsive design and secure payment gateway: The website was designed to be responsive to ensure optimal viewing experience on all devices.}
+            
+            \resumeItem{Designed and developed a user-friendly interface: A user-friendly interface was created to make it easy for customers to navigate and browse products.}
+
+            \resumeItem{Developed an administrative panel for managing products, orders, and customer data: An administrative panel was developed to manage products, orders, and customer data, allowing for easy management of the e-commerce website.}
+            
+          \resumeItemListEnd
+          \vspace{-13pt}
+
+      
+          \resumeProjectHeading
+          {\textbf{Smartify - Home Automation} $|$ \emph{Firebase, Nodemcu, Android App}}{\href{https://github.com/imyusufakhtar/Smartify-Home-Automation}{\faGithub\ {github.com/link}}}
+          \resumeItemListStart
+            \resumeItem{Developed a Home Automation android app: The android app was developed to control various home appliances remotely using a smartphone.}
+            
+            \resumeItem{Implemented Firebase integration: The app was integrated with Firebase which was used to store and manage the device status, user authentication and scheduling data.}
+            
+            \resumeItem{Implemented NodeMCU integration: The app was integrated with NodeMCU (a low-cost, open-source microcontroller) to control the home appliances via WiFi.}
+            
+            \resumeItem{Developed a user-friendly interface: A user-friendly interface was developed to make it easy for users to navigate and control their devices.}
+            
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{:  Java, C++, JavaScript, PHP, HTML/CSS, SQL} \\
+     \textbf{Developer Tools}{: VS Code, Eclipse, Apache, Sublime Text, Android Studio} \\
+     \textbf{Technologies/Frameworks}{: Linux, Windows, GitHub} \\
+    }}
+ \end{itemize}
+ %\vspace{-18pt}
+
+
+\vspace{-18pt}
+
+
+
+%-----------Achievements And Activities-----------
+\section{Achievements And Activities}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{}  \emph{}}{}
+          \vspace{-25pt}
+          \resumeItemListStart
+            \resumeItem{Solved 400+ DSA questions at LeetCode. 
+            \href{https://leetcode.com/imyusufakhtar/}{[LINK - https://leetcode.com/imyusufakhtar/]}} 
+            
+           \resumeItem{Earned many badges in different domains from Leetcode, Linkedln And Hackerrank.}
+
+           \resumeItem{Received numerous certificates in different domains from Coursera, Udemy, NPTEL And Internshala. 
+   \href{https://drive.google.com/drive/u/3/folders/1SsLY1NbchkKwxYN6u2D6mKC7uW8KufUW}{[LINK]}} 
+
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+\end{document}

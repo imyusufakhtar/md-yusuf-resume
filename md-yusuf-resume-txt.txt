@@ -1,11 +1,12 @@
 %-------------------------
-% Resume in Latex
+% Resume Template
 % Author : Md Yusuf
 % Based off of: https://github.com/imyusufakhtar/md-yusuf-resume
 % License : MIT
 %------------------------
 
-\documentclass[letterpaper,11pt]{article}
+
+\documentclass[a4paper,20pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -14,28 +15,8 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
+\usepackage[pdftex]{hyperref}
 \usepackage{fancyhdr}
-\usepackage[english]{babel}
-\usepackage{tabularx}
-\usepackage{fontawesome5}
-\usepackage{multicol}
-\setlength{\multicolsep}{-3.0pt}
-\setlength{\columnsep}{-1pt}
-\input{glyphtounicode}
-
-
-%----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -44,13 +25,13 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.6in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1.19in}
-\addtolength{\topmargin}{-.7in}
-\addtolength{\textheight}{1.4in}
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
 
-\urlstyle{same}
+\urlstyle{rm}
 
 \raggedbottom
 \raggedright
@@ -58,78 +39,68 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
-
-% Ensure that generate pdf is machine readable/ATS parsable
-\pdfgentounicode=1
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
 
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-2pt}}
+   %\textbf{#1}{: #2 \vspace{-2pt}}
+   {#1 \vspace{-2pt}}
   }
 }
 
-\newcommand{\classesList}[4]{
-    \item\small{
-        {#1 #2 #3 #4 \vspace{-2pt}}
+
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
   }
 }
+
+
+
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
-    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & \textbf{\small #2} \\
-      \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubSubheading}[2]{
-    \item
+  \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
-    \item
-    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & \textbf{\small #2}\\
-    \end{tabular*}\vspace{-7pt}
+    \vspace{8pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2\\
+      %\textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+      %\small#1 & \textbf{\small #2}\\
+    %\end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}[2]\vspace{-3pt}}
 
-\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand{\labelitemii}{$\circ$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
-%-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
 
 \begin{document}
 
-%----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Md Yusuf}} & Email Id: \href{mailto:}{imyusufakhtar@gmail.com}\\
+  \href{https://www.linkedin.com/in/imyusufakhtar/}{LinkedIn: in/imyusufakhtar/} & Mobile Number:~~ +91-978-1282-503 \\
+  \href{https://github.com/imyusufakhtar}{Github: github.com/imyusufakhtar} \\
+\end{tabular*}
 
-\begin{center}
-    {\Huge \scshape Md Yusuf} \\ \vspace{1pt}
-    Chandigarh, Punjab, India \\ \vspace{1pt}
-    \small \raisebox{-0.1\height}\faPhone\ +91-9781282503 ~ \href{mailto:imyusufakhtar@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{imyusufakhtar@gmail.com}} ~ 
-    \href{https://linkedin.com/in/imyusufakhtar/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/imyusufakhtar}}  ~
-    \href{https://github.com/imyusufakhtar}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/imyusufakhtar}}
-    \vspace{-8pt}
-\end{center}
 
 %-----------ABOUT ME-----------
 \section{Summary}
@@ -138,45 +109,56 @@
      \textbf{}{As a recent graduate in Computer Science and Engineering, I am eager to apply my knowledge and skills to a challenging and rewarding role in the field. I am a quick learner and have a strong passion for technology and its advancements. I am confident in my ability to adapt to new technologies and programming languages, and am always eager to learn more.} \\
     }}
  \end{itemize}
- \vspace{-18pt}
 
-
-%-----------EDUCATION-----------
+%-----------EDUCATION-----------------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Chandigarh University}{July 2018 -- July 2022}
-      {Bachelor of Engineering - Computer Science And Engineering}{Punjab, India}
-\vspace{4pt}
-       {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Relevant Coursework:} DSA, Programming Languages, OOPS, Computer Networks, Operating Systems, DBMS.}}}
-  \resumeSubHeadingListEnd
-
-\vspace{-16pt}
-
-%-----------EXPERIENCE-----------
+      {Chandigarh University}{Punjab, India}
+      {Bachelor of Engineering - Computer Science And Engineering}{July 2018 - July 2022}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Programming Languages, Data Structures and Algorithms, Object Oriented Programming, Operating Systems, Computer Networks, Databases.}}}
+    \resumeSubHeadingListEnd
+	    
+\vspace{-5pt}
+\section{Skills Summary}
+ \begin{itemize}[leftmargin=*]
+    \small{\item{
+     \textbf{Programming}{:~~~~~ Java, JavaScript, C++, SQL} 
+    }}
+ \end{itemize}
+\vspace{-18pt}
+ \begin{itemize}[leftmargin=*]
+    \small{\item{
+     \textbf{Web Technology}{:~ HTML, CSS, Bootstrap} 
+    }}
+ \end{itemize}
+\vspace{-18pt}
+ \begin{itemize}[leftmargin=*]
+    \small{\item{
+     \textbf{Developer Tools}{:~~ Windows, Linux, GIT, Eclipse, Apache, Sublime Text, VS Code} 
+    }}
+ \end{itemize}
+\vspace{-5pt}
 \section{Internship}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Internshala}{May 2020 -- June 2020}
-      {Web Development training}{Remote, India}
-      \resumeItemListStart
-        \resumeItem{Completed 6-week web development training program, focusing on HTML, CSS, Bootstrap, SQL and PHP.} 
-        
-        \resumeItem{Developed a gym management system website, showcasing expertise in web development technologies and database integration.   \href{https://github.com/imyusufakhtar/gym-management-system}{[LINK]}}
-
-        \resumeItem{Strong analytical and problem-solving skills, ability to work independently and in a team environment, proven ability to learn and adapt quickly to new technologies.}
+  \resumeSubHeadingListStart  
+    \resumeSubheading{Internshala}{Remote, India}
+    {Web Development training}{May 2020 - June 2020}
+    \resumeItemListStart
+        \resumeItem{}
+          {Completed 6-week web development training program, focusing on HTML, CSS, Bootstrap, SQL and PHP.}
+          \resumeItem{}
+          {Developed a gym management system website, showcasing expertise in web development technologies and database integration. \href{https://github.com/imyusufakhtar/gym-management-system}{[LINK]}}
+          \resumeItem{}{Strong analytical and problem-solving skills, ability to work independently and in a team environment, proven ability to learn and adapt quickly to new technologies.}
       \resumeItemListEnd
-    
-  \resumeSubHeadingListEnd
-\vspace{-15pt}
 
+\resumeSubHeadingListEnd
+\vspace{-5pt}
 %-----------PROJECTS-----------
 \section{Projects}
     \vspace{-5pt}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{Shopping Cart - Ecommerce Website} $|$ \emph{HTML, CSS, JavaScript and PHP}}{\href{https://github.com/imyusufakhtar/shopping-cart}{\faGithub\ {github.com/link}}}
+          {\textbf{Shopping Cart - Ecommerce Website} $|$ \emph{HTML, CSS, JavaScript and PHP}}{\href{https://github.com/imyusufakhtar/shopping-cart}{ {[github.com/link]}}}
           \resumeItemListStart
             \resumeItem{Developed a fully functional ecommerce website: The website was developed using technologies such as HTML, CSS, JavaScript and PHP, providing a complete shopping experience for customers, including product browsing, ordering, and payment processing.}
             
@@ -189,11 +171,11 @@
             \resumeItem{Developed an administrative panel for managing products, orders, and customer data: An administrative panel was developed to manage products, orders, and customer data, allowing for easy management of the e-commerce website.}
             
           \resumeItemListEnd
-          \vspace{-13pt}
+          \vspace{-6pt}
 
       
           \resumeProjectHeading
-          {\textbf{Smartify - Home Automation} $|$ \emph{Firebase, Nodemcu, Android App}}{\href{https://github.com/imyusufakhtar/Smartify-Home-Automation}{\faGithub\ {github.com/link}}}
+          {\textbf{Smartify - Home Automation} $|$ \emph{Firebase, Nodemcu, Android App}}{\href{https://github.com/imyusufakhtar/Smartify-Home-Automation}{ {[github.com/link]}}}
           \resumeItemListStart
             \resumeItem{Developed a Home Automation android app: The android app was developed to control various home appliances remotely using a smartphone.}
             
@@ -205,45 +187,39 @@
             
           \resumeItemListEnd 
     \resumeSubHeadingListEnd
-\vspace{-16pt}
-
-
-
-%
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Programming Languages}{:  Java, C++, JavaScript, PHP, HTML/CSS, SQL} \\
-     \textbf{Developer Tools}{: VS Code, Eclipse, Apache, Sublime Text, Android Studio} \\
-     \textbf{Technologies/Frameworks}{: Linux, Windows, GitHub} \\
-    }}
- \end{itemize}
- %\vspace{-18pt}
-
-
-\vspace{-18pt}
-
-
-
-%-----------Achievements And Activities-----------
+    
+%-----------Achievements And Activities-----------------
+\vspace{-5pt}
 \section{Achievements And Activities}
-    \vspace{-5pt}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{}  \emph{}}{}
-          \vspace{-25pt}
-          \resumeItemListStart
-            \resumeItem{Solved 400+ DSA questions at LeetCode. 
-            \href{https://leetcode.com/imyusufakhtar/}{[LINK - https://leetcode.com/imyusufakhtar/]}} 
-            
-           \resumeItem{Earned many badges in different domains from Leetcode, Linkedln And Hackerrank.}
+\begin{description}[font=$\bullet$]
+\item {Solved 420+ Data Structures and Algorithms questions at LeetCode. 
+            \href{https://leetcode.com/imyusufakhtar/}{[LINK]}}
+\end{description}
 
-           \resumeItem{Received numerous certificates in different domains from Coursera, Udemy, NPTEL And Internshala. 
-   \href{https://drive.google.com/drive/u/3/folders/1SsLY1NbchkKwxYN6u2D6mKC7uW8KufUW}{[LINK]}} 
+\vspace{-17PT}
+\begin{description}[font=$\bullet$]
+\item {Solved Data Structures and Algorithms questions at GeeksforGeeks Also. 
+            \href{https://auth.geeksforgeeks.org/user/_yusufakhtar}{[LINK]}}
+\end{description}
 
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
+\vspace{-17pt}
+\begin{description}[font=$\bullet$]
+\item {Completed C, C++ Training through IIT Bombay, in collaboration with Chandigarh University.}
+\end{description}
+
+
+%-----------Coursework-----------------
+\vspace{-5pt}
+\section{Coursework}
+\vspace{3pt}
+\begin{description}[font=$\bullet$]
+\item {Java Programming: Solving Problems with Software by Coursera.\href{https://coursera.org/share/77cbb66c2ecb46901f2133828857186e}{ [LINK]}}
+\end{description}
+
+\vspace{-17pt}
+\begin{description}[font=$\bullet$]
+\item {Received numerous certificates in different domains from Coursera, Udemy And Internshala. \href{https://drive.google.com/drive/u/3/folders/1SsLY1NbchkKwxYN6u2D6mKC7uW8KufUW}{[LINK]}}
+\end{description}
 
 
 

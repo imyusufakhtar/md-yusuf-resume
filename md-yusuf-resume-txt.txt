@@ -1,9 +1,9 @@
-%-------------------------
+%------------------------
 % Resume Template
 % Author : Md Yusuf
 % Based off of: https://github.com/imyusufakhtar/md-yusuf-resume
 % License : MIT
-%------------------------
+%-----------------------
 
 
 \documentclass[a4paper,20pt]{article}

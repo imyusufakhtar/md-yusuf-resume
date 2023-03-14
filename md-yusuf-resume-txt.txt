@@ -123,35 +123,30 @@
 \section{Skills Summary}
  \begin{itemize}[leftmargin=*]
     \small{\item{
-     \textbf{Programming}{:~~~~~ Java, JavaScript, C++, SQL} 
+     \textbf{Programming}{:~~~~~~~~~~~~ Java, JavaScript, C++, SQL} 
     }}
  \end{itemize}
 \vspace{-18pt}
  \begin{itemize}[leftmargin=*]
     \small{\item{
-     \textbf{Web Technology}{:~ HTML, CSS, Bootstrap} 
+     \textbf{Web Technology}{:~~~~~~~~ HTML, CSS, Bootstrap} 
     }}
  \end{itemize}
-\vspace{-18pt}
- \begin{itemize}[leftmargin=*]
-    \small{\item{
-     \textbf{Developer Tools}{:~~ Windows, Linux, GIT, Eclipse, Apache, Sublime Text, VS Code} 
-    }}
- \end{itemize}
-\vspace{-5pt}
-\section{Internship}
-  \resumeSubHeadingListStart  
-    \resumeSubheading{Internshala}{Remote, India}
-    {Web Development training}{May 2020 - June 2020}
-    \resumeItemListStart
-        \resumeItem{}
-          {Completed 6-week web development training program, focusing on HTML, CSS, Bootstrap, SQL and PHP.}
-          \resumeItem{}
-          {Developed a gym management system website, showcasing expertise in web development technologies and database integration. \href{https://github.com/imyusufakhtar/gym-management-system}{[LINK]}}
-          \resumeItem{}{Strong analytical and problem-solving skills, ability to work independently and in a team environment, proven ability to learn and adapt quickly to new technologies.}
-      \resumeItemListEnd
 
-\resumeSubHeadingListEnd
+\vspace{-18pt}
+ \begin{itemize}[leftmargin=*]
+    \small{\item{
+     \textbf{Soft Skills}{:~~~~~~~~~~~~~~~~~~ Leadership, Problem-solving, Positive attitude} 
+    }}
+ \end{itemize}
+ 
+\vspace{-18pt}
+ \begin{itemize}[leftmargin=*]
+    \small{\item{
+     \textbf{Tools And Platforms}{:~~ Windows, Linux, GIT, Eclipse, MySQL, Apache} 
+    }}
+ \end{itemize}
+
 \vspace{-5pt}
 %-----------PROJECTS-----------
 \section{Projects}
@@ -160,15 +155,33 @@
       \resumeProjectHeading
           {\textbf{Shopping Cart - Ecommerce Website} $|$ \emph{HTML, CSS, JavaScript and PHP}}{\href{https://github.com/imyusufakhtar/shopping-cart}{ {[github.com/link]}}}
           \resumeItemListStart
-            \resumeItem{Developed a fully functional ecommerce website: The website was developed using technologies such as HTML, CSS, JavaScript and PHP, providing a complete shopping experience for customers, including product browsing, ordering, and payment processing.}
+            \resumeItem{The Shopping Cart website is an e-commerce platform that allows customers to browse and purchase products online.}
             
-            \resumeItem{Integrated a MySQL database and implemented a search bar: A MySQL database was integrated to store product information, customer data, and order details. A search bar was also implemented to allow customers to search for products by name and category.}
+            \resumeItem{The front-end development uses HTML, CSS, and JavaScript to create a responsive design that works well on all devices and screen sizes.}
             
-            \resumeItem{Implemented a responsive design and secure payment gateway: The website was designed to be responsive to ensure optimal viewing experience on all devices.}
+            \resumeItem{The back-end development uses PHP to handle website's logic, such as processing payments and managing inventory.}
             
-            \resumeItem{Designed and developed a user-friendly interface: A user-friendly interface was created to make it easy for customers to navigate and browse products.}
+            \resumeItem{The website includes a product catalog, a shopping cart, a checkout page, payment processing, and user authentication and authorization.}
 
-            \resumeItem{Developed an administrative panel for managing products, orders, and customer data: An administrative panel was developed to manage products, orders, and customer data, allowing for easy management of the e-commerce website.}
+            \resumeItem{The website is thoroughly tested, deployed on a web server, and regularly maintained and updated to fix any bugs and security vulnerabilities.}
+            
+          \resumeItemListEnd
+          \vspace{-6pt}
+
+          \resumeProjectHeading
+          {\textbf{Gym Management System} $|$ \emph{HTML, CSS, JavaScript and PHP}}{\href{https://github.com/imyusufakhtar/gym-management-system}{ {[github.com/link]}}}
+          \resumeItemListStart
+            \resumeItem{User authentication and dashboard to view membership details, payment history, and progress.}
+            
+            \resumeItem{Membership management, including renewing or canceling subscriptions.}
+            
+            \resumeItem{Class scheduling and trainer booking with availability and profiles.}
+            
+            \resumeItem{Payment integration for secure processing of membership fees and personal training sessions.}
+
+            \resumeItem{Inventory management, reporting and analytics, messaging system, and administrative tools.}
+
+            \resumeItem{Mobile responsiveness and security measures for user data protection.}
             
           \resumeItemListEnd
           \vspace{-6pt}
@@ -177,13 +190,17 @@
           \resumeProjectHeading
           {\textbf{Smartify - Home Automation} $|$ \emph{Firebase, Nodemcu, Android App}}{\href{https://github.com/imyusufakhtar/Smartify-Home-Automation}{ {[github.com/link]}}}
           \resumeItemListStart
-            \resumeItem{Developed a Home Automation android app: The android app was developed to control various home appliances remotely using a smartphone.}
+            \resumeItem{Smartify - Home Automation is an Android app that automates the control of devices in a home.}
             
-            \resumeItem{Implemented Firebase integration: The app was integrated with Firebase which was used to store and manage the device status, user authentication and scheduling data.}
+            \resumeItem{The project uses Firebase as the backend service to store data and communicate between the app and NodeMCU microcontroller.}
             
-            \resumeItem{Implemented NodeMCU integration: The app was integrated with NodeMCU (a low-cost, open-source microcontroller) to control the home appliances via WiFi.}
+            \resumeItem{NodeMCU is a microcontroller that uses the ESP8266 Wi-Fi chip to connect devices to the internet and control them.}
             
-            \resumeItem{Developed a user-friendly interface: A user-friendly interface was developed to make it easy for users to navigate and control their devices.}
+            \resumeItem{The Android app sends commands to the NodeMCU to control devices such as lights, fans, and other appliances in the home.}
+
+            \resumeItem{The app also allows users to create schedules, timers, and monitor the energy consumption of their devices.}
+
+            \resumeItem{Smartify - Home Automation is a convenient way to make a home more comfortable and efficient while saving time and energy.}
             
           \resumeItemListEnd 
     \resumeSubHeadingListEnd
@@ -192,7 +209,7 @@
 \vspace{-5pt}
 \section{Achievements And Activities}
 \begin{description}[font=$\bullet$]
-\item {Solved 420+ Data Structures and Algorithms questions at LeetCode. 
+\item {Solved 430+ Data Structures and Algorithms questions at LeetCode. 
             \href{https://leetcode.com/imyusufakhtar/}{[LINK]}}
 \end{description}
 
@@ -214,6 +231,16 @@
 \vspace{3pt}
 \begin{description}[font=$\bullet$]
 \item {Java Programming: Solving Problems with Software by Coursera.\href{https://coursera.org/share/77cbb66c2ecb46901f2133828857186e}{ [LINK]}}
+\end{description}
+
+\vspace{-17pt}
+\begin{description}[font=$\bullet$]
+\item {Building Modern Python Applications on AWS by Coursera.\href{https://coursera.org/share/580a8fb57231a40c1cf9e3b5a2fb4864}{[LINK]}}
+\end{description}
+
+\vspace{-17pt}
+\begin{description}[font=$\bullet$]
+\item {DBMS by NPTEL\href{https://drive.google.com/file/d/1Gc6KlsTuQVaUzv-fmY2lftBicEXu9sFO/view}{[LINK]}}
 \end{description}
 
 \vspace{-17pt}

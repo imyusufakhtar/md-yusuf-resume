@@ -97,7 +97,7 @@
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{{\LARGE Md Yusuf}} & Email Id: \href{mailto:}{imyusufakhtar@gmail.com}\\
-  \href{https://www.linkedin.com/in/imyusufakhtar/}{LinkedIn: in/imdyusuf/} & Mobile Number:~~ +91-978-1282-503 \\
+  \href{https://www.linkedin.com/in/imdyusuf/}{LinkedIn: in/imdyusuf/} & Mobile Number:~~ +91-978-1282-503 \\
   \href{https://github.com/imyusufakhtar}{Github: github.com/imyusufakhtar} \\
 \end{tabular*}
 

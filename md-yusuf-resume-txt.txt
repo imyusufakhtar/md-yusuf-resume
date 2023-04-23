@@ -103,10 +103,11 @@
 
 
 %-----------ABOUT ME-----------
+
 \section{Summary}
  \begin{itemize}[leftmargin=0.0in, label={}]
     \small{\item{
-     \textbf{}{As a recent graduate in Computer Science and Engineering, I am eager to apply my knowledge and skills to a challenging and rewarding role in the field. I am a quick learner and have a strong passion for technology and its advancements. I am confident in my ability to adapt to new technologies and programming languages, and am always eager to learn more.} \\
+     \textbf{}{As a recent Computer Science and Engineering graduate, I want to apply my knowledge and skills in a challenging and rewarding role in this field. I am a fast learner and have a strong passion for technology and its advancements. I believe that I can adapt to new technologies and programming languages and I always want to learn more.} \\
     }}
  \end{itemize}
 
@@ -120,38 +121,67 @@
     \resumeSubHeadingListEnd
 	    
 \vspace{-5pt}
+
+
+%-----------SKILLS SUMMARY-----------------
+
 \section{Skills Summary}
  \begin{itemize}[leftmargin=*]
     \small{\item{
-     \textbf{Programming}{:~~~~~~~~~~~~ Java, JavaScript, C++, SQL} 
-    }}
- \end{itemize}
-\vspace{-18pt}
- \begin{itemize}[leftmargin=*]
-    \small{\item{
-     \textbf{Web Technology}{:~~~~~~~~ HTML, CSS, Bootstrap} 
-    }}
- \end{itemize}
-
-\vspace{-18pt}
- \begin{itemize}[leftmargin=*]
-    \small{\item{
-     \textbf{Soft Skills}{:~~~~~~~~~~~~~~~~~~ Leadership, Problem-solving, Positive attitude} 
+     \textbf{Programming}{:~~~~~~~~~~~~~ Java, JavaScript, C++, SQL} 
     }}
  \end{itemize}
  
 \vspace{-18pt}
- \begin{itemize}[leftmargin=*]
+\begin{itemize}[leftmargin=*]
     \small{\item{
-     \textbf{Tools And Platforms}{:~~ Windows, Linux, GIT, Eclipse, MySQL, Apache} 
+     \textbf{Frameworks }{:~~~~~~~~~~~~~~~ React, jQuery} 
     }}
  \end{itemize}
+ 
+
+ \vspace{-18pt}
+ \begin{itemize}[leftmargin=*]
+    \small{\item{
+    \textbf{Web Technology}{:~~~~~~~~~~ HTML, CSS, Bootstrap} 
+    }}
+ \end{itemize}
+ 
+ 
+\vspace{-18pt}
+ \begin{itemize}[leftmargin=*]
+    \small{\item{
+      \textbf{Tools And Platforms}{:~~~ Windows, Linux, GIT, Eclipse, MySQL, Apache} 
+    }}
+ \end{itemize}
+ 
 
 \vspace{-5pt}
 %-----------PROJECTS-----------
 \section{Projects}
     \vspace{-5pt}
     \resumeSubHeadingListStart
+
+     %-----------1ST - PROJECTS-----------  
+      \resumeProjectHeading
+          {\textbf{YouTube Clone} $|$ \emph{React, Redux, Firebase and YouTube API}}{\href{https://github.com/imyusufakhtar/YouTube-Clone}{ {[github.com/link]}}}
+          \resumeItemListStart
+            \resumeItem{A fully functional YouTube clone developed using modern web technologies: React, Redux, Firebase, YouTube API, CSS, HTML and JavaScript.}
+            
+            \resumeItem{Implemented user authentication using Firebase Authentication for registration, login and logout functions.}
+            
+            \resumeItem{Integrated with YouTube API for fetching video data for seamless video playback and user interaction.}
+            
+            \resumeItem{Used Redux for state management and implemented a responsive UI using CSS and HTML for a seamless user experience across devices and screen sizes.}
+
+            \resumeItem{Implemented video player functionality using JavaScript to add features such as video search, recommendations, and user interaction (likes, comments, shares, etc.).}
+            
+          \resumeItemListEnd
+          \vspace{-6pt}
+
+    
+
+     %-----------2ND - PROJECTS-----------  
       \resumeProjectHeading
           {\textbf{Shopping Cart - Ecommerce Website} $|$ \emph{HTML, CSS, JavaScript and PHP}}{\href{https://github.com/imyusufakhtar/shopping-cart}{ {[github.com/link]}}}
           \resumeItemListStart
@@ -168,25 +198,8 @@
           \resumeItemListEnd
           \vspace{-6pt}
 
-          \resumeProjectHeading
-          {\textbf{Gym Management System} $|$ \emph{HTML, CSS, JavaScript and PHP}}{\href{https://github.com/imyusufakhtar/gym-management-system}{ {[github.com/link]}}}
-          \resumeItemListStart
-            \resumeItem{User authentication and dashboard to view membership details, payment history, and progress.}
-            
-            \resumeItem{Membership management, including renewing or canceling subscriptions.}
-            
-            \resumeItem{Class scheduling and trainer booking with availability and profiles.}
-            
-            \resumeItem{Payment integration for secure processing of membership fees and personal training sessions.}
 
-            \resumeItem{Inventory management, reporting and analytics, messaging system, and administrative tools.}
-
-            \resumeItem{Mobile responsiveness and security measures for user data protection.}
-            
-          \resumeItemListEnd
-          \vspace{-6pt}
-
-      
+    %-----------3RD - PROJECTS-----------  
           \resumeProjectHeading
           {\textbf{Smartify - Home Automation} $|$ \emph{Firebase, Nodemcu, Android App}}{\href{https://github.com/imyusufakhtar/Smartify-Home-Automation}{ {[github.com/link]}}}
           \resumeItemListStart

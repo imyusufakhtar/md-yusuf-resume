@@ -96,8 +96,8 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{{\LARGE Md Yusuf}} &  \href{https://github.com/imyusufakhtar}{Github:~~ github.com/imyusufakhtar}\\
-  \href{https://imyusufakhtar.github.io/Portfolio/}{Portfolio: imyusufakhtar} & Email Id: \href{mailto:}{imyusufakhtar@gmail.com} \\
+  \textbf{{\LARGE Md Yusuf}} & Email Id: \href{mailto:}{imyusufakhtar@gmail.com}\\
+  \href{https://imyusufakhtar.github.io/Portfolio/}{Portfolio: imyusufakhtar} & \href{https://github.com/imyusufakhtar}{Github:~~ github.com/imyusufakhtar} \\
   \href{https://www.linkedin.com/in/imdyusuf/}{LinkedIn: in/imdyusuf/} \\
 \end{tabular*}
 
@@ -107,7 +107,7 @@
 \section{Summary}
  \begin{itemize}[leftmargin=0.0in, label={}]
     \small{\item{
-     \textbf{}{I recently received my bachelor's degree in Computer Science and Engineering, and I'm looking to put my knowledge and abilities to use in a challenging and fulfilling position in this industry. I am a quick learner who is deeply passionate about technology and its achievements. I am confident in my ability to learn new programming languages and technologies, and I am constantly seeking out new information.} \\
+     \textbf{}{As a recent Computer Science and Engineering graduate, I want to apply my knowledge and skills in a challenging and rewarding role in this field. I am a fast learner and have a strong passion for technology and its advancements. I believe that I can adapt to new technologies and programming languages and I always want to learn more.} \\
     }}
  \end{itemize}
 
@@ -131,15 +131,6 @@
      \textbf{Programming}{:~~~~~~~~~~~~~ Java, JavaScript, C++, SQL} 
     }}
  \end{itemize}
-
-
-  \vspace{-18pt}
- \begin{itemize}[leftmargin=*]
-    \small{\item{
-    \textbf{Web Technology}{:~~~~~~~~~ HTML, CSS, Bootstrap} 
-    }}
- \end{itemize}
- 
  
 \vspace{-18pt}
 \begin{itemize}[leftmargin=*]
@@ -147,6 +138,15 @@
      \textbf{Frameworks }{:~~~~~~~~~~~~~~~ React, jQuery} 
     }}
  \end{itemize}
+ 
+
+ \vspace{-18pt}
+ \begin{itemize}[leftmargin=*]
+    \small{\item{
+    \textbf{Web Technology}{:~~~~~~~~~~ HTML, CSS, Bootstrap} 
+    }}
+ \end{itemize}
+ 
  
 \vspace{-18pt}
  \begin{itemize}[leftmargin=*]
@@ -166,15 +166,15 @@
       \resumeProjectHeading
           {\textbf{YouTube Clone} $|$ \emph{React, Redux, Firebase and YouTube API}}{\href{https://github.com/imyusufakhtar/YouTube-Clone}{ {[github.com/link]}}}
           \resumeItemListStart
-            \resumeItem{Modern web technologies, including React, Redux, Firebase, YouTube API, CSS, HTML, and JavaScript, were used to construct a fully functional YouTube clone.}
+            \resumeItem{A fully functional YouTube clone developed using modern web technologies: React, Redux, Firebase, YouTube API, CSS, HTML and JavaScript.}
             
-            \resumeItem{For the registration, login, and logout, user authentication utilising Firebase Authentication was implemented.}
+            \resumeItem{Implemented user authentication using Firebase Authentication for registration, login and logout functions.}
             
-            \resumeItem{For seamless video playback and user interaction, an integrated YouTube API is used to fetch video data.}
+            \resumeItem{Integrated with YouTube API for fetching video data for seamless video playback and user interaction.}
             
-            \resumeItem{Used Redux for state management and created a responsive user interface with CSS and HTML to provide a consistent user experience across devices and screen sizes.}
+            \resumeItem{Used Redux for state management and implemented a responsive UI using CSS and HTML for a seamless user experience across devices and screen sizes.}
 
-            \resumeItem{JavaScript was used to implement the video player's functionality and add features like video search, user interaction (likes, comments, and shares), and recommendation capabilities.}
+            \resumeItem{Implemented video player functionality using JavaScript to add features such as video search, recommendations, and user interaction (likes, comments, shares, etc.).}
             
           \resumeItemListEnd
           \vspace{-6pt}
@@ -185,15 +185,15 @@
       \resumeProjectHeading
           {\textbf{Shopping Cart - Ecommerce Website} $|$ \emph{HTML, CSS, JavaScript and PHP}}{\href{https://github.com/imyusufakhtar/shopping-cart}{ {[github.com/link]}}}
           \resumeItemListStart
-            \resumeItem{Customers can explore and buy products online on the Shopping Cart, which serves as an e-commerce platform.}
+            \resumeItem{The Shopping Cart website is an e-commerce platform that allows customers to browse and purchase products online.}
             
-            \resumeItem{HTML, CSS, and JavaScript are used in the front-end development to produce a responsive design that works well on all devices and screen sizes.}
+            \resumeItem{The front-end development uses HTML, CSS, and JavaScript to create a responsive design that works well on all devices and screen sizes.}
             
-            \resumeItem{PHP is used in the back-end programming to handle the logic of the website, such as processing payments and managing inventories.}
+            \resumeItem{The back-end development uses PHP to handle website's logic, such as processing payments and managing inventory.}
             
-            \resumeItem{The website has a shopping cart, a checkout page, payment processing, and user identification and authorization.}
+            \resumeItem{The website includes a product catalog, a shopping cart, a checkout page, payment processing, and user authentication and authorization.}
 
-            \resumeItem{The website is thoroughly tested before being placed on a web server. It is then routinely updated and maintained to address bugs and security flaws.}
+            \resumeItem{The website is thoroughly tested, deployed on a web server, and regularly maintained and updated to fix any bugs and security vulnerabilities.}
             
           \resumeItemListEnd
           \vspace{-6pt}
@@ -203,17 +203,17 @@
           \resumeProjectHeading
           {\textbf{Smartify - Home Automation} $|$ \emph{Firebase, Nodemcu, Android App}}{\href{https://github.com/imyusufakhtar/Smartify-Home-Automation}{ {[github.com/link]}}}
           \resumeItemListStart
-            \resumeItem{Through Android technology, the software Smartify automates home gadget control.}
+            \resumeItem{Smartify - Home Automation is an Android app that automates the control of devices in a home.}
             
-            \resumeItem{Data is stored and sent between the app and the NodeMCU microcontroller using Firebase as the project's backend service.}
+            \resumeItem{The project uses Firebase as the backend service to store data and communicate between the app and NodeMCU microcontroller.}
             
-            \resumeItem{The ESP8266 Wi-Fi chip is used by NodeMCU, a microcontroller, to connect devices to the internet and operate them.}
+            \resumeItem{NodeMCU is a microcontroller that uses the ESP8266 Wi-Fi chip to connect devices to the internet and control them.}
             
-            \resumeItem{To operate home appliances like lights, fans, and other electronics, the Android app transmits commands to the NodeMCU.}
+            \resumeItem{The Android app sends commands to the NodeMCU to control devices such as lights, fans, and other appliances in the home.}
 
             \resumeItem{The app also allows users to create schedules, timers, and monitor the energy consumption of their devices.}
 
-            \resumeItem{With the help of Smartify - Home Automation, it's simple to make a house more efficient and comfortable while also saving time and resources.}
+            \resumeItem{Smartify - Home Automation is a convenient way to make a home more comfortable and efficient while saving time and energy.}
             
           \resumeItemListEnd 
     \resumeSubHeadingListEnd
@@ -248,7 +248,7 @@
 
 \vspace{-17pt}
 \begin{description}[font=$\bullet$]
-\item {Foundations: Data, Data, Everywhere.\href{https://coursera.org/share/d07fc0401429950d99095ee7d92198ca}{[LINK]}}
+\item {Building Modern Python Applications on AWS by Coursera.\href{https://coursera.org/share/580a8fb57231a40c1cf9e3b5a2fb4864}{[LINK]}}
 \end{description}
 
 \vspace{-17pt}

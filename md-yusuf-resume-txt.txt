@@ -128,14 +128,7 @@
 \section{Skills Summary}
  \begin{itemize}[leftmargin=*]
     \small{\item{
-     \textbf{Programming}{:~~~~~~~~~~~~~ Java, JavaScript, C++, SQL} 
-    }}
- \end{itemize}
- 
-\vspace{-18pt}
-\begin{itemize}[leftmargin=*]
-    \small{\item{
-     \textbf{Frameworks }{:~~~~~~~~~~~~~~~ React, jQuery} 
+     \textbf{Programming}{:~~~~~~~~~~~~~~Java, JavaScript, C++, SQL} 
     }}
  \end{itemize}
  
@@ -143,7 +136,15 @@
  \vspace{-18pt}
  \begin{itemize}[leftmargin=*]
     \small{\item{
-    \textbf{Web Technology}{:~~~~~~~~~~ HTML, CSS, Bootstrap} 
+    \textbf{Web Technology}{:~~~~~~~~~~HTML, CSS, React, Redux, Bootstrap} 
+    }}
+ \end{itemize}
+
+
+  \vspace{-18pt}
+ \begin{itemize}[leftmargin=*]
+    \small{\item{
+    \textbf{Databases}{:~~~~~~~~~~~~~~~~~~~~MySQL, Firebase} 
     }}
  \end{itemize}
  
@@ -151,7 +152,7 @@
 \vspace{-18pt}
  \begin{itemize}[leftmargin=*]
     \small{\item{
-      \textbf{Tools And Platforms}{:~~~ Windows, Linux, GIT, Eclipse, MySQL, Apache} 
+      \textbf{Tools And Platforms}{:~~~~GIT, Linux, Windows, Eclipse, MySQL, Apache} 
     }}
  \end{itemize}
  
@@ -166,15 +167,13 @@
       \resumeProjectHeading
           {\textbf{YouTube Clone} $|$ \emph{React, Redux, Firebase and YouTube API}}{\href{https://github.com/imyusufakhtar/YouTube-Clone}{ {[github.com/link]}}}
           \resumeItemListStart
-            \resumeItem{A fully functional YouTube clone developed using modern web technologies: React, Redux, Firebase, YouTube API, CSS, HTML and JavaScript.}
+            \resumeItem{A fully functional \textbf{YouTube clone} developed using modern web technologies: \textbf{React}, Redux, Firebase, \textbf{YouTube API}, HTML, CSS and \textbf{JavaScript}.}
             
-            \resumeItem{Implemented user authentication using Firebase Authentication for registration, login and logout functions.}
+            \resumeItem {Implemented user authentication using \textbf{Firebase} Authentication for registration, login and logout functions.}
             
-            \resumeItem{Integrated with YouTube API for fetching video data for seamless video playback and user interaction.}
-            
-            \resumeItem{Used Redux for state management and implemented a responsive UI using CSS and HTML for a seamless user experience across devices and screen sizes.}
+            \resumeItem{Integrated \textbf{YouTube API} to fetch video data, used \textbf{Redux} for state management, implemented \textbf{responsive} user interface design.}
 
-            \resumeItem{Implemented video player functionality using JavaScript to add features such as video search, recommendations, and user interaction (likes, comments, shares, etc.).}
+            \resumeItem{\textbf{Impact:} YouTube clone project positively impacted users with an enhanced video streaming experience, expanded functionalities, improved accessibility, and demonstrated technical skills.}
             
           \resumeItemListEnd
           \vspace{-6pt}
@@ -182,83 +181,103 @@
     
 
      %-----------2ND - PROJECTS-----------  
-      \resumeProjectHeading
-          {\textbf{Shopping Cart - Ecommerce Website} $|$ \emph{HTML, CSS, JavaScript and PHP}}{\href{https://github.com/imyusufakhtar/shopping-cart}{ {[github.com/link]}}}
+       \resumeProjectHeading
+          {\textbf{Tic Tac Toe Game } $|$ \emph{HTML, CSS, JavaScript }}{\href{https://imyusufakhtar.github.io/tic-tac-toe/}{ {[github.com/link]}}}
           \resumeItemListStart
-            \resumeItem{The Shopping Cart website is an e-commerce platform that allows customers to browse and purchase products online.}
+            \resumeItem{Developed a functional \textbf{Tic Tac Toe} game using \textbf{HTML}, \textbf{CSS}, and \textbf{JavaScript}.}
             
-            \resumeItem{The front-end development uses HTML, CSS, and JavaScript to create a responsive design that works well on all devices and screen sizes.}
+            \resumeItem{Implemented \textbf{event listeners} and \textbf{DOM} manipulation to allow players to make moves by clicking on the squares.}
             
-            \resumeItem{The back-end development uses PHP to handle website's logic, such as processing payments and managing inventory.}
+            \resumeItem{Improved \textbf{logic programming} skills by creating an \textbf{algorithm} that determines the winner of the game.}
             
-            \resumeItem{The website includes a product catalog, a shopping cart, a checkout page, payment processing, and user authentication and authorization.}
-
-            \resumeItem{The website is thoroughly tested, deployed on a web server, and regularly maintained and updated to fix any bugs and security vulnerabilities.}
-            
-          \resumeItemListEnd
+            \resumeItem{\textbf{Impact:} Received positive feedback from users who enjoyed playing the game on different devices.}
+          \resumeItemListEnd 
           \vspace{-6pt}
 
 
     %-----------3RD - PROJECTS-----------  
           \resumeProjectHeading
-          {\textbf{Smartify - Home Automation} $|$ \emph{Firebase, Nodemcu, Android App}}{\href{https://github.com/imyusufakhtar/Smartify-Home-Automation}{ {[github.com/link]}}}
+          {\textbf{Shopping Cart - Ecommerce Website} $|$ \emph{HTML, CSS, JavaScript and PHP}}{\href{https://github.com/imyusufakhtar/shopping-cart}{ {[github.com/link]}}}
           \resumeItemListStart
-            \resumeItem{Smartify - Home Automation is an Android app that automates the control of devices in a home.}
-            
-            \resumeItem{The project uses Firebase as the backend service to store data and communicate between the app and NodeMCU microcontroller.}
-            
-            \resumeItem{NodeMCU is a microcontroller that uses the ESP8266 Wi-Fi chip to connect devices to the internet and control them.}
-            
-            \resumeItem{The Android app sends commands to the NodeMCU to control devices such as lights, fans, and other appliances in the home.}
+            \resumeItem{\textbf{E-commerce} platform developed using \textbf{HTML}, \textbf{CSS}, and \textbf{JavaScript} for the \textbf{front-end}, providing a \textbf{responsive} design across devices. }
 
-            \resumeItem{The app also allows users to create schedules, timers, and monitor the energy consumption of their devices.}
-
-            \resumeItem{Smartify - Home Automation is a convenient way to make a home more comfortable and efficient while saving time and energy.}
+            \resumeItem{\textbf{Back-end} development utilizes \textbf{PHP} to handle website's logic, including payment processing, user authentication, and authorization.}
             
-          \resumeItemListEnd 
+            \resumeItem{Website features include product catalog, shopping cart, checkout, secure payment, testing, maintenance, and updates.}
+
+            \resumeItem{\textbf{Impact:} Shopping Cart impact includes improved user experience, increased sales, streamlined operations, and enhanced market reach.}
+            
+          \resumeItemListEnd
+
+          
     \resumeSubHeadingListEnd
     
 %-----------Achievements And Activities-----------------
 \vspace{-5pt}
-\section{Achievements And Activities}
+\section{Accomplishments}
 \begin{description}[font=$\bullet$]
-\item {Solved 430+ Data Structures and Algorithms questions at LeetCode. 
-            \href{https://leetcode.com/imyusufakhtar/}{[LINK]}}
+\item {Received \textbf{50\%} Merit \textbf{Scholarship} from \textbf{Chandigarh University}. 
+            \href{https://drive.google.com/file/d/1b1TNOA5eaeBy2zYyeDqM5vvn5UaBWFFH/view?usp=sharing}{[LINK]}}
 \end{description}
 
 \vspace{-17PT}
 \begin{description}[font=$\bullet$]
-\item {Solved Data Structures and Algorithms questions at GeeksforGeeks Also. 
-            \href{https://auth.geeksforgeeks.org/user/_yusufakhtar}{[LINK]}}
+\item {\textbf{430+ DSA} problems solved and secured \textbf{3 star} coder status on \textbf{Leetcode}.
+            \href{https://leetcode.com/imyusufakhtar/}{[LINK]}}
 \end{description}
 
 \vspace{-17pt}
 \begin{description}[font=$\bullet$]
-\item {Completed C, C++ Training through IIT Bombay, in collaboration with Chandigarh University.}
+\item {Solved \textbf{100+ DSA} Problems on \textbf{GeeksforGeeks}.\href{https://auth.geeksforgeeks.org/user/_yusufakhtar}{[LINK]}}
+\end{description}
+
+\vspace{-17pt}
+\begin{description}[font=$\bullet$]
+\item {\textbf{5 Star} Coder at \textbf{Hackerrank}.}
 \end{description}
 
 
-%-----------Coursework-----------------
+
+%-----------Certifications-----------------
 \vspace{-5pt}
-\section{Coursework}
+\section{Certifications}
 \vspace{3pt}
 \begin{description}[font=$\bullet$]
-\item {Java Programming: Solving Problems with Software by Coursera.\href{https://coursera.org/share/77cbb66c2ecb46901f2133828857186e}{ [LINK]}}
+\item {\textbf{Java} Programming: Solving Problems with Software by \textbf{Coursera}.\href{https://coursera.org/share/77cbb66c2ecb46901f2133828857186e}{ [Certificate]}}
 \end{description}
 
 \vspace{-17pt}
 \begin{description}[font=$\bullet$]
-\item {Building Modern Python Applications on AWS by Coursera.\href{https://coursera.org/share/580a8fb57231a40c1cf9e3b5a2fb4864}{[LINK]}}
+\item {\textbf{Foundations}: Data, Data Everywhere by \textbf{Coursera}.\href{https://coursera.org/share/d07fc0401429950d99095ee7d92198ca}{[Certificate]}}
 \end{description}
 
 \vspace{-17pt}
 \begin{description}[font=$\bullet$]
-\item {DBMS by NPTEL\href{https://drive.google.com/file/d/1Gc6KlsTuQVaUzv-fmY2lftBicEXu9sFO/view}{[LINK]}}
+\item {\textbf{DBMS} (Database management system) by \textbf{NPTEL}.\href{https://drive.google.com/file/d/1Jp78Db91tkipQgklGKKGZREyjle2Hb3T/view?usp=sharing}{[Certificate]}}
+\end{description}
+
+
+%-----------Extra Curriculars-----------------   
+\vspace{-5pt}
+\section{Extra Curriculars}
+\vspace{3pt}
+\begin{description}[font=$\bullet$]
+\item {Organized \textbf{Anti-Drug} Campaign at \textbf{Chandigarh University} as a \textbf{Coordinator} in 2019.}
 \end{description}
 
 \vspace{-17pt}
 \begin{description}[font=$\bullet$]
-\item {Received numerous certificates in different domains from Coursera, Udemy And Internshala. \href{https://drive.google.com/drive/u/3/folders/1SsLY1NbchkKwxYN6u2D6mKC7uW8KufUW}{[LINK]}}
+\item {Worked as a \textbf{Backend Coordinator} for \textbf{AIU and CU Fest} organized at \textbf{Chandigarh University} in 2018.}
+\end{description}
+
+\vspace{-17pt}
+\begin{description}[font=$\bullet$]
+\item {\textbf{Won Prize} in \textbf{CU Tech fest} at Chandigarh University.}
+\end{description}
+
+\vspace{-17pt}
+\begin{description}[font=$\bullet$]
+\item {Participated in \textbf{Swachh Bharat Abhiyan}.}
 \end{description}
 
 

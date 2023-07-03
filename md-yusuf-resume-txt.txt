@@ -107,7 +107,7 @@
 \section{Summary}
  \begin{itemize}[leftmargin=0.0in, label={}]
     \small{\item{
-     \textbf{}{As a recent Computer Science and Engineering graduate, I want to apply my knowledge and skills in a challenging and rewarding role in this field. I am a fast learner and have a strong passion for technology and its advancements. I believe that I can adapt to new technologies and programming languages and I always want to learn more.} \\
+     \textbf{}{Logical and organised individual with a strong foundation in software engineering. Proficient in Java, JavaScript, C++, and Python. Seeking to raise coding KPIs by providing error-free codes. Ability to translate business requirements into innovative software solutions. Excellent teamwork, interpersonal and communication skills. Looking to start a career as an entry-level professional with a reputed IT company.} \\
     }}
  \end{itemize}
 
